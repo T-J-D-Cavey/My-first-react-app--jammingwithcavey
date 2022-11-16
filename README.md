@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# Jamming - my React web app 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a React single page application (SPA) which allows a user to search for tracks from Spotify, make a playlist with a name and save it to their Spotify account. This uses the Spotify API and is hosted by Surge at www.jammingwithcavey.surge.sh 
 
-## Available Scripts
+## Codecademy project:
 
-In the project directory, you can run:
+This project is part of the Codecademy programming course, specifically front-end web development / React module. 
 
-### `npm start`
+There's a walkthrough video of a Codecademy developer building this project. Some is different but the concept and some of the code is a copy. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+### Why have I done this project?
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This is my first React application project. It brings together learnings of text editors, Node and NPM, Git and version control, React components / JSX syntax, API and asynchronous javascript and SPA web hosting by Surge. 
 
-### `npm run build`
+This represents practice and consolidation of learning, and is a demonstration of the skill sets necessary. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Does this application work if I clone it?
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+No. You will need to log in to a Spotify account and obtain a client ID by declaring a project that involves their API. When you have this you will need to edit the source code found in the myfirstreactapp/src/util/Spotify/Spotify.js file, line 3. Replace the fact client ID with your ID. I have provided a note above this line to reiterate this. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+You will also need to change the the redirectUri location found on the 4th line of the same Spotify.js file. This needs to be set to your file's local serving address. 
 
-### `npm run eject`
+### Where are the codecademy resources you used? 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This is the youtube walkthrough video of the project, recorded and published by Codecademy: https://www.youtube.com/watch?v=DH991Dzb9iE
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This is the codecademy course which includes the module's step by step guide: https://www.codecademy.com/learn/paths/front-end-engineer-career-path
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Happy Hacking! 
