@@ -1,6 +1,7 @@
-import App from "../Components/App/App";
+// import App from "../Components/App/App";
 
 let accessToken; 
+// I will hide the clientID for the github respository for security reasons. This will stop the app functioning
 const clientID = "2711362ce6bc4295a166696328b5f946";
 const redirectUri = "http://localhost:3000/";
 
@@ -20,9 +21,7 @@ let Spotify = {
             return accessToken;
             } 
             else {
-                const accessUrl = `https://accounts.spotify.com/authorize?
-                client_id=${clientID}&response_type=token&
-                scope=playlist-modify-public&redirect_uri=${redirectUri}`;
+                const accessUrl = `https://accounts.spotify.com/authorize?client_id=${clientID}&response_type=token&scope=playlist-modify-public&redirect_uri=${redirectUri}`;
                 window.location = accessUrl;
             }
         
