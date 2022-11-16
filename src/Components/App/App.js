@@ -40,7 +40,7 @@ removeTrack(track) {
 updatePlaylistName(name) {
   this.setState({PlaylistName: name})
 }
-// 
+
 savePlaylist() {
   const trackUris = this.state.playlistTracks.map(track => track.uri);
   Spotify.savePlaylist(this.state.playlistName, trackUris).then(() => {
