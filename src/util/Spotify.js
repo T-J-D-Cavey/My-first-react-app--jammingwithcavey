@@ -1,8 +1,7 @@
-// import App from "../Components/App/App";
+
 
 let accessToken; 
-// I will hide the clientID for the github respository for security reasons. This will stop the app functioning
-const clientID = "2711362ce6bc4295a166696328b5f946";
+const clientID = "youNeedToGetYourOwnClientId";
 const redirectUri = "http://jammingwithcavey.surge.sh";
 
 let Spotify = {
